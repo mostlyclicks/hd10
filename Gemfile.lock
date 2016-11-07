@@ -41,12 +41,17 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (6.0.3)
+    autoprefixer-rails (6.5.2)
+      execjs
     awesome_nested_set (3.0.3)
       activerecord (>= 4.0.0, < 5)
     babosa (1.0.2)
     bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     byebug (9.0.6)
     coffee-rails (4.1.1)
@@ -392,6 +397,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.3.6)
   byebug
   coffee-rails (~> 4.1.0)
   dragonfly-s3_data_store
