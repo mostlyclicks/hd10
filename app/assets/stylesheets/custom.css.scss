@@ -4,6 +4,16 @@ footer {
   padding:0px 20px;
 }
 
+.container {
+  background-color:#a6a6a6;
+}
+
+#contact-info {
+  .container {background-color:#a6a6a6;} 
+  span {margin:0 1em;font-size:92%;color:#6459c4;}
+
+}
+
 h1 {
   color:$hulse-gray-lightest;
 }
