@@ -1,0 +1,30 @@
+$hulse-gray:#424242;
+$hulse-gray-lightest:lighten($hulse-gray, 50%);
+$hulse-gray-light:lighten($hulse-gray, 30%);
+
+
+// .navbar-default {
+//   background-color:$hulse-gray !important;
+// }
+
+// .navbar {
+//   border-radius:0px !important;
+//   border-color:transparent !important;
+// }
+
+$body-bg:$hulse-gray;
+
+$navbar-border-radius:0px;
+$navbar-default-border:transparent;
+$navbar-default-bg:$hulse-gray;
+$navbar-default-toggle-border-color:transparent;
+$navbar-default-toggle-hover-bg:lighten($hulse-gray, 10%);
+
+$text-color:$hulse-gray-lightest;
+$font-size-base:16px;
+$line-height-base:1.85;
+h1, h2, h3 {font-weight:100 !important;}
+
+
+
+
