@@ -1,7 +1,12 @@
 @import 'base.css.scss';
 
 footer {
-  padding:0px 20px;
+  padding:40px 20px;
+}
+
+footer .container {
+  background-color:#424242;
+  text-align:center;
 }
 
 .container {
@@ -24,6 +29,43 @@ p, li {
 
 #hulse-carousel img {
   width:100%;
+}
+
+#image-carousel {
+  margin:15px 0px 25px 0px;
+}
+
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
 }
 
 
