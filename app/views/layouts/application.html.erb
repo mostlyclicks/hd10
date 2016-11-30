@@ -4,6 +4,7 @@
   <head>
     <%= render "/refinery/head" %>
     <%= render "/refinery/javascripts" %>
+    <script src="https://use.fontawesome.com/6b052a3a8e.js"></script>
   </head>
   <body id="<%= canonical_id @page %>">
     <%= site_bar -%>
@@ -40,6 +41,7 @@
       <section id="page">
         <%= yield %>
       </section>
+      <div class="container" id="pre-footer"></div>
       <footer>
         <%#= render "/refinery/footer" -%>
         <div class="container">

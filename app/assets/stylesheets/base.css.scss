@@ -21,18 +21,20 @@ $navbar-default-bg:#a6a6a6;
 $navbar-default-toggle-border-color:transparent;
 $navbar-default-toggle-hover-bg:lighten($hulse-gray, 10%);
 $navbar-height:40px;
-$navbar-margin-bottom:0px;
+$navbar-margin-bottom:50px;
 $navbar-padding-vertical:0px;
 $navbar-default-link-color:#fff;
 $navbar-default-link-hover-color:$hulse-purple;
 $dropdown-bg:lighten($hulse-purple, 30%);
 $dropdown-link-hover-bg:lighten($hulse-purple, 20%);
-$dropdown-link-active-bg:lighten($hulse-purple, 10%);;
+$dropdown-link-active-bg:lighten($hulse-purple, 10%);
 
-$text-color:$hulse-gray-lightest;
+$text-color:#fff;
 $font-size-base:16px;
 $line-height-base:1.85;
 h1, h2, h3 {font-weight:100 !important;}
+p {color:#fff;}
+
 
 
 

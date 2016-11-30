@@ -11,6 +11,16 @@ footer .container {
 
 .container {
   background-color:#a6a6a6;
+  a {
+    color:darken($hulse-purple, 10%);
+    &:hover {
+      color:lighten($hulse-purple, 5%);
+    }
+  }
+}
+
+#pre-footer {
+  height:50px;
 }
 
 #contact-info {
@@ -21,14 +31,20 @@ footer .container {
 
 h1 {
   color:$hulse-gray-lightest;
+  margin-top:0px;
+  padding-top:0px;
 }
 
 p, li {
-  color:$hulse-gray-light;
+  color:#ffffff;
 }
 
+
+
 #hulse-carousel img {
+
   width:100%;
+  a {color:#fff;}
 }
 
 #image-carousel {
