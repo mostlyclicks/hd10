@@ -40,12 +40,17 @@
       content: 'MD';
     }
   }
+
   #logo {
   padding:0px;
     img {
       margin-top:0px;
       // border:1px solid red;
     }
+  }
+
+  .navbar.navbar-default {
+    margin-top:60px !important;
   }
 }
 
