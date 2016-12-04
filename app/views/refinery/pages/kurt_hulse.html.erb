@@ -1,63 +1,21 @@
-
-
-
 <div class="container">
-<div class="row">
-<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-12">
       <div id="hulse-carousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#hulse-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#hulse-carousel" data-slide-to="1"></li>
-          <li data-target="#hulse-carousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <%= image_tag 'kurt-hulse-1.jpg', alt: 'Kurt Hulse', title: 'Kurt Hulse', class: 'img-responsive' %>
-            <div class="carousel-caption">
-              
-            </div>
-          </div>
-          <div class="item">
-            <%= image_tag 'kurt-hulse-2.jpg', alt: 'Kurt Hulse 2', title: 'Kurt Hulse 2', class: 'img-responsive' %>
-            <div class="carousel-caption">
-              
-            </div>
-          </div>
-
-
-
-        </div>
-
-        <!-- Controls left carousel-control-->
-        <a class="carousel-control" href="#hulse-carousel" role="button" data-slide="prev" style="border:none !important;">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#hulse-carousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <%= render 'shared/carousel' %>
       </div>
-
-
-</div>
-</div>
+    </div>
+  </div>
 </div>
 
-
-<div class="container">
-  
+<div class="container">  
   <div class="row">
     <div class="col-md-12">
       <h1 class="text-center">Dr. Kurt Hulse - Credentials</h1>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-5 ">
-      
+    <div class="col-md-5 ">     
       <h3>Education</h3>
       <table class="table">
         <tr>
@@ -86,7 +44,6 @@
         </tr>
       </table>
     </div>
-
     <div class="col-md-5 col-md-offset-1">
       <h3>Professional Associations</h3>
         <ul>
@@ -97,9 +54,6 @@
           <li>Director, ADA "Give Kids a Smile" program</li>
         </ul>
     </div>
-
-    
   </div>
-
 </div>
 
