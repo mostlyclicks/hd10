@@ -2,15 +2,37 @@
 <%= render "/refinery/html_tag" %>
   <% site_bar = render('/refinery/site_bar', :head => true) -%>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= render "/refinery/head" %>
     <%= render "/refinery/javascripts" %>
     <script src="https://use.fontawesome.com/6b052a3a8e.js"></script>
   </head>
   <body id="<%= canonical_id @page %>">
+
+    <div id="media-query"></div>
+
     <%= site_bar -%>
     <div id="page_container">
 
-      <header id="header">
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <%= render "/refinery/header" -%>
+          </div>
+          <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-offset-0 col-md-4" id="logo">
+            <%= image_tag 'HulseDentalLogo2016.png', class: 'img-responsive', alt: 'Hulse Dental Logo' %>
+            <p class="text-center" id="contact-info">
+                  <span>1840 E. Main St, Onalaska</span>
+                  <span>608.783.1306</span>
+                </p>
+          </div>
+        </div>
+      </div>
+
+
+     <!--  <header id="header">
 
         <section id="logo">
           <div class="container">
@@ -36,8 +58,9 @@
 
         </section>
 
-        <%= render "/refinery/header" -%>
-      </header>
+        <%#= render "/refinery/header" -%>
+      </header> -->
+
       <section id="page">
         <%= yield %>
       </section>

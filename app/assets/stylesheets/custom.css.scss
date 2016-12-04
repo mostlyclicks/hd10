@@ -19,13 +19,21 @@ footer .container {
   }
 }
 
+#logo {
+  padding:0px;
+  img {
+    margin-top:-55px;
+    // border:1px solid red;
+  }
+}
+
 #pre-footer {
   height:50px;
 }
 
 #contact-info {
   .container {background-color:#a6a6a6;} 
-  span {margin:0 1em;font-size:92%;color:#6459c4;}
+  span {margin:0 1em;font-size:90%;color:lighten(#6459c4, 5%);}
 
 }
 
@@ -39,18 +47,14 @@ p, li {
   color:#ffffff;
 }
 
-
-
 #hulse-carousel {
   img {width:100%;}
   a {color:#fff;}  
-
 }
 
 #image-carousel {
   margin:15px 0px 25px 0px;
 }
-
 
 .carousel-fade {
     .carousel-inner {
@@ -86,6 +90,19 @@ p, li {
 
 .carousel-control.left, .carousel-control.right {
     background-image: none !important;
+}
+
+#media-query {
+  position:absolute;
+  top:5px;
+  right:10px;
+  color:orange;
+  font-weight:900;
+  font-size:14px;
+  text-transform:uppercase;
+  &:after {
+    content: 'XS';
+  }
 }
 
 
