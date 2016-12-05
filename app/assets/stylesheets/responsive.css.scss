@@ -20,15 +20,23 @@
   }
 
   .navbar.navbar-default {
-  li {
-    font-size:13px;
-    border-left:1px solid $hulse-gray-lightest;
-    border-bottom:1px solid $hulse-gray-lightest;
-    &:first-child {
-      border-left:none;
+    li {
+      font-size:13px;
+      border-left:1px solid $hulse-gray-lightest;
+      border-bottom:1px solid $hulse-gray-lightest;
+      &:first-child {
+        border-left:none;
+      }
     }
   }
-}
+
+  #staff-name {
+    position:relative;
+    margin-top:15%;
+    text-align:right;
+    h3 {font-size:36px;}
+    p {margin-top:-1em;}
+  }
 
 }
 
