@@ -1,9 +1,9 @@
 <section id="slideshow">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" >
 
-        <div id="hulse-carousel" class="carousel slide" data-ride="carousel">
+        <div id="hulse-carousel" class="carousel slide" data-ride="carousel" >
 
             <!-- Indicators -->
           <ol class="carousel-indicators" >
@@ -15,7 +15,7 @@
 
           <!-- Wrapper for slides -->
 
-          <div class="carousel-inner" role="listbox">
+          <div class="carousel-inner" role="listbox" id="staff-carousel">
               <% @page.images.each_with_index do |image, index| %>
                   <div class="item <% if index == 0 %>active<% end %>">
                     <div id="staff-name" class="col-xs-5 col-xs-offset-1 col-md-4 col-md-offset-2">

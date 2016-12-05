@@ -56,11 +56,18 @@ p, li {
   margin:15px 0px 25px 0px;
 }
 
+#staff-carousel {
+  img {margin-top:20px;}
+  padding-bottom:20px;
+  background-color:lighten($hulse-gray, 35%);
+}
+
 #staff-name {
   position:relative;
   margin-top:20%;
   text-align:right;
   p {margin-top:-1em;}
+
 }
 
 .carousel-fade {
