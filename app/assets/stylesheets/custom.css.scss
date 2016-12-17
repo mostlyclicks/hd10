@@ -119,4 +119,13 @@ p, li {
   }
 }
 
+#social-links {
+  margin-top:20px;
+  a {
+    color:darken($hulse-gray-lightest, 20%);
+    margin:0 5px;
+    &:hover {color:darken($hulse-gray-lightest, 5%);}
+  }
+}
+
 
