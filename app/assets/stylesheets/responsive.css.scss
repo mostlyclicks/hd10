@@ -4,6 +4,10 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  body {
+    padding-top:20px;
+  }
+
   #media-query {
     color:red;
     &:after {
