@@ -10,9 +10,9 @@
 
   #media-query {
     color:red;
-    &:after {
-      content: 'SM';
-    }
+    // &:after {
+    //   content: 'SM';
+    // }
   }
 
   #logo {
@@ -48,9 +48,9 @@
 @media (min-width: 992px) {
   #media-query {
     color:yellow;
-    &:after {
-      content: 'MD';
-    }
+    // &:after {
+    //   content: 'MD';
+    // }
   }
 
   #logo {
@@ -70,9 +70,9 @@
 @media (min-width: 1200px) {
   #media-query {
     color:green;
-    &:after {
-      content: 'LG';
-    }
+    // &:after {
+    //   content: 'LG';
+    // }
   }
 
 }
