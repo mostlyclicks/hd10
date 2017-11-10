@@ -40,7 +40,12 @@ footer .container {
 
 #contact-info {
   .container {background-color:#a6a6a6;} 
-  span {margin:0 1em;font-size:90%;color:lighten(#6459c4, 5%);}
+  color:rgba(0,0,0,.2);
+  span {margin:0 0em;font-size:90%;color:lighten(#6459c4, 5%);}
+  span fa {font-size:100%;}
+  i {
+    opacity:.5;
+  }
 
 }
 
