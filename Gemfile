@@ -27,6 +27,8 @@ gem 'fog'
 gem 'rails_12factor'
 gem 'bootstrap-sass', '~> 3.3.6'
 
+
+
 group :production do
   gem 'dragonfly-s3_data_store'
 end
