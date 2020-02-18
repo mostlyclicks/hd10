@@ -78,6 +78,41 @@
         <%#= render "/refinery/footer" -%>
         <div class="container">
           <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <formtarget="_blank" action="https://hosted.transactionexpress.com/Transaction/Transaction/Index"method ="POST">
+
+              <input type="hidden" name="HostedKey" id="HostedKey" value="f774615f-789a-462e-9bac-2a757ae9d5d6"/>
+
+              <input type="hidden" name="Gateway_ID" id="Gateway_ID" value="9078619423"/>
+
+              <input type="hidden" name="IndustryCode" id="IndustryCode" value="2"/>
+
+              <input type="hidden" name="Amount" id="Amount" value=""/>
+
+              <input type="hidden" name="RecurringType" id="RecurringType" value="N"/>
+
+              <input type="hidden" name="RecurringAmount" id="RecurringAmount" value=""/>
+
+              <input type="hidden" name="RURL" id="RURL" value="https://www.hulsedental.com/thank-you"/>
+
+              <input type="hidden" name="CURL" id="CURL" value="https://www.hulsedental.com/canceled-payment"/>
+
+              <input type="hidden" name="AVSRequired" id="AVSRequired" value="Y"/>
+
+              <input type="hidden" name="CVV2Required" id="CVV2Required" value="Y"/>
+
+              <input type="hidden" name="EmailRequired" id="EmailRequired" value="N"/>
+
+              <input type="hidden" name="PostRspMsg" id="PostRspMsg" value="N"/>
+
+              Account Number:<input type="text" requiredname="custrefid" id="custrefid" value=""/><br/>
+
+              <input type="Submit" name="Submit" id="Submit" value="Pay Now" style="color:#493dad;"/>
+
+            </form>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-md-12">
               <small><a href="tel:1-608-783-1306">(608) 783-1306</a> | <a href="http://maps.google.com/?q=1840 E. Main St, Onalaska, WI 54650">1840 East Main Street | Onalaska, WI | 54650</a><br />Hours: Monday - Friday, 8 - 5<br /><a href="mailto:Kurthulsedental@gmail.com">Kurthulsedental@gmail.com</a></small>
             </div>
